@@ -5,4 +5,9 @@ public class Fractionné extends Courses{
         super(nom, distance, temps);
         this.nbRep = nbRep;
     }
+
+    public int getNbRep() {
+        return nbRep;
+    }
+
 }

@@ -5,4 +5,9 @@ public class Trail extends Courses{
         super(nom, distance, temps);
         this.denivele=denivele;
     }
+
+    public int getDenivele() {
+        return denivele;
+    }
+
 }

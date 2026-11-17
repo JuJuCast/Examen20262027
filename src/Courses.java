@@ -12,4 +12,14 @@ public abstract class Courses {
     public double allureMoyenne() {
         return temps / distance;
     }
+
+    public String getNom() {
+        return nom;
+    }
+    public double getDistance() {
+        return distance;
+    }
+    public int getTemps() {
+        return temps;
+    }
 }

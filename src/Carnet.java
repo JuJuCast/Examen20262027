@@ -1,0 +1,2 @@
+public class Carnet {
+}
